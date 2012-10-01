@@ -1,0 +1,80 @@
+body {
+    font-family: Helvetica, Verdana, Arial;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+
+h1 {
+    color: rgb(160, 160, 160);
+}
+
+p {
+    margin-top: 0;  
+}
+
+
+a {
+    color: rgb(127, 130, 130);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(150, 160, 160);
+}
+
+section.content {
+    width: 45%;
+    float: left;
+    vertical-align: top;
+}
+
+ul.other-sites {
+    width: 30%;
+    margin-left: 50%;
+}
+
+li.wikipedia {
+    list-style-image: url('images/wikipedia.png');
+}
+
+li.email {
+    list-style-image: url('images/email.png');
+}
+
+li.wordpress {
+    list-style-image: url('images/wordpress.png');
+}
+
+li.linkedin {
+    list-style-image: url('images/linkedin.png');
+}
+
+li.stackoverflow {
+    list-style-image: url('images/stackoverflow.png');
+}
+
+li.devmedia {
+    list-style-image: url('images/devmedia.png');
+}
+
+li.python {
+    list-style-image: url('images/python.png');
+}
+
+li.liferay {
+    list-style-image: url('images/liferay.png');
+}
+
+li.elastix {
+    list-style-image: url('images/elastix.png');
+}
+
+li.bitbucket {
+    list-style-image: url('images/bitbucket.png');
+}
+
+li.github {
+    list-style-image: url('images/github.png');
+}
+
