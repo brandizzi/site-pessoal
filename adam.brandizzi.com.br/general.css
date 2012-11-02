@@ -78,3 +78,21 @@ li.github {
     list-style-image: url('images/github.png');
 }
 
+
+li.twitter {
+    list-style-image: url('images/twitter.png');
+}
+
+li.tumblr {
+    list-style-image: url('images/tumblr.png');
+}
+
+li.facebook {
+    list-style-image: url('images/facebook.png');
+}
+
+li.tripadvisor {
+    list-style-image: url('images/tripadvisor.png');
+}
+
+
