@@ -95,11 +95,13 @@ li.theoldreader {
     list-style-image: url('images/theoldreader.png');
 }
 
-
 li.tripadvisor {
     list-style-image: url('images/tripadvisor.png');
 }
 
+li.goodreads {
+    list-style-image: url('images/goodreads.png');
+}
 
 
 
