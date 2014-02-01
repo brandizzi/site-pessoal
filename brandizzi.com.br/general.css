@@ -54,6 +54,10 @@ li.stackoverflow {
     list-style-image: url('images/stackoverflow.png');
 }
 
+li.stackoverflow.careers {
+    list-style-image: url('images/stackoverflowcareers.png');
+}
+
 li.devmedia {
     list-style-image: url('images/devmedia.png');
 }
