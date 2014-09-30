@@ -107,5 +107,9 @@ li.goodreads {
     list-style-image: url('images/goodreads.png');
 }
 
+.languages a {
+    padding-left: 10px;
+    background: url('images/us.png');
+}
 
 
