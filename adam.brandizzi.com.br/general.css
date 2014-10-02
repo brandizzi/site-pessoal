@@ -22,6 +22,11 @@ a:hover {
     color: rgb(150, 160, 160);
 }
 
+.content {
+    vertical-align: top;
+    text-align: justify;
+}
+
 .wikipedia {
     list-style-image: url('images/wikipedia.png');
 }
@@ -103,6 +108,10 @@ a:hover {
     list-style-image: url('images/br.png');
 }
 
+.menu {
+    vertical-align: top;
+}
+
 .right-column {
     width: 30%;
     display: inline-block;
@@ -112,11 +121,33 @@ a:hover {
 .left-column {
     width: 45%;
     display: inline-block;
-    vertical-align: top;
-    text-align: justify;
 }
 
 .small-navbar {
     margin-top: 2.5em;
     font-size: 75%;
+}
+
+@media (max-width: 600px) {
+    .right-column {
+        width: 100%;
+        display: block;
+        margin: 1em 0;
+    }
+    
+     ul.right-column {
+        padding-left: 25px;
+    }
+
+    .left-column {
+        width: 100%;
+        display: block;
+    }
+
+
+    .small-navbar {
+        width: 100%;
+        font-size: 50%;
+        margin: -2em 0 1em 0 ;
+    }
 }
