@@ -95,8 +95,12 @@ a:hover {
     list-style-image: url('images/goodreads.png');
 }
 
-.language {
+.language.en {
     list-style-image: url('images/us.png');
+}
+
+.language.pt {
+    list-style-image: url('images/br.png');
 }
 
 .right-column {
