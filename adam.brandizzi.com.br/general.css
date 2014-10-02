@@ -1,6 +1,5 @@
 body {
     font-family: Helvetica, Verdana, Arial;
-    text-align: justify;
     padding-left: 5%;
 }
 
@@ -23,93 +22,97 @@ a:hover {
     color: rgb(150, 160, 160);
 }
 
-section.content {
-    width: 45%;
-    float: left;
-    vertical-align: top;
-}
-
-ul.other-sites {
-    width: 30%;
-    margin-left: 50%;
-}
-
-li.wikipedia {
+.wikipedia {
     list-style-image: url('images/wikipedia.png');
 }
 
-li.email {
+.email {
     list-style-image: url('images/email.png');
 }
 
-li.wordpress {
+.wordpress {
     list-style-image: url('images/wordpress.png');
 }
 
-li.linkedin {
+.linkedin {
     list-style-image: url('images/linkedin.png');
 }
 
-li.stackoverflow {
+.stackoverflow {
     list-style-image: url('images/stackoverflow.png');
 }
 
-li.stackoverflow.careers {
+.stackoverflow.careers {
     list-style-image: url('images/stackoverflowcareers.png');
 }
 
-li.devmedia {
+.devmedia {
     list-style-image: url('images/devmedia.png');
 }
 
-li.python {
+.python {
     list-style-image: url('images/python.png');
 }
 
-li.liferay {
+.liferay {
     list-style-image: url('images/liferay.png');
 }
 
-li.elastix {
+.elastix {
     list-style-image: url('images/elastix.png');
 }
 
-li.bitbucket {
+.bitbucket {
     list-style-image: url('images/bitbucket.png');
 }
 
-li.github {
+.github {
     list-style-image: url('images/github.png');
 }
 
 
-li.twitter {
+.twitter {
     list-style-image: url('images/twitter.png');
 }
 
-li.tumblr {
+.tumblr {
     list-style-image: url('images/tumblr.png');
 }
 
-li.facebook {
+.facebook {
     list-style-image: url('images/facebook.png');
 }
 
-li.theoldreader {
+.theoldreader {
     list-style-image: url('images/theoldreader.png');
 }
 
-li.tripadvisor {
+.tripadvisor {
     list-style-image: url('images/tripadvisor.png');
 }
 
-li.goodreads {
+.goodreads {
     list-style-image: url('images/goodreads.png');
 }
 
-.languages a {
-    padding-left: 10px;
-    background: url('images/us.png');
+.language {
+    list-style-image: url('images/us.png');
 }
 
+.right-column {
+    width: 30%;
+    display: inline-block;
+    margin: 0 20px;
+}
 
+.left-column {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.small-navbar {
+    margin-top: 2.5em;
+    font-size: 75%;
+}
