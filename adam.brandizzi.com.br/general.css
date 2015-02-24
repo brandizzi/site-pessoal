@@ -128,7 +128,7 @@ a:hover {
     font-size: 75%;
 }
 
-@media (max-width: 600px) {
+@media ((max-width: 285ppi) or (max-width: 600px)) {
     .right-column {
         width: 100%;
         display: block;
