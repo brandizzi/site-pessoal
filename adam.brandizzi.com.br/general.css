@@ -99,6 +99,9 @@ a:hover {
 .goodreads {
     list-style-image: url('images/goodreads.png');
 }
+.devto {
+    list-style-image: url('images/devto.png');
+}
 
 .language.en {
     list-style-image: url('images/us.png');
